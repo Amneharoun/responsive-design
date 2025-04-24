@@ -1,63 +1,66 @@
 /* pour S trés petits Ecrans(320pxS)*/
 @media screen and (min-width: 320px) {
-    .features{
-      
-      padding: 1.6rem;
-      flex-direction:column;
-      flex-wrap: wrap;
-    }
+  .features {
+
+    padding: 1.6rem;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-  /* pour L mobile de (375px)*/
+}
+
+/* pour L mobile de (375px)*/
 @media screen and (min-width: 375px) {
-    .feature{
-      flex-direction: row;
-      flex-wrap: wrap;
-      /* font-size: 1.1rem; */
-    }
+  .feature {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
   }
-/* pour M mobile (425px) */
-@media screen and (min-width: 425px) {
-    .features{
+
+  /* pour M mobile (425px) */
+  @media screen and (min-width: 425px) {
+    .features {
       flex-direction: row;
       flex-wrap: wrap;
-      grid-template-rows: auto 1fr auto ;
+      grid-template-rows: auto 1fr auto;
     }
-    .feature{
+
+    .feature {
       flex: 1 1 calc(50% -1rem);
     }
   }
+
   /* laptop pour un écran(1024px)*/
   @media screen and (min-width: 1024px) {
-    .site.header{
-     padding: 2rem;
-     flex: auto;
-    
+    .site.header {
+      padding: 2rem;
+      flex: auto;
+
     }
-    .site-nav ul{
+
+    .site-nav ul {
       gap: 2rem;
     }
-    .features{
+
+    .features {
       font-size: 1.1em;
     }
   }
+
   /* laptop moyen avec un écran de (768px)*/
   @media screen and (min-width:768px) {
-    .features{
+    .features {
       flex-direction: row;
       gap: 1.5rem;
-    justify-content: space-around;
-    margin-left: -10%;
+      justify-content: space-around;
+      margin-left: -10%;
     }
   }
-    /* laptop avec un ecran de (1440px)*/
+
+  /* laptop avec un ecran de (1440px)*/
   @media screen and (min-width: 1440px) {
-    .site-main{
+    .site-main {
       max-width: 1200px;
       margin: 0 auto;
     }
-    
+
   }
-  
-
-  
-
